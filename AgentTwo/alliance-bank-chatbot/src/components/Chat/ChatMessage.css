@@ -1,0 +1,49 @@
+.citation-button {
+  background: none;
+  border: none;
+  color: #0078d4;
+  cursor: pointer;
+  font-size: 0.9em;
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.citation-button svg {
+  margin-right: 0.3rem;
+}
+
+.citation-list {
+  list-style: none;
+  padding-left: 1.5em;
+  margin-top: 0.5em;
+}
+
+.citation-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  border-radius: 4px;
+  background-color: #1e1e2e;
+}
+
+.citation-number {
+  background-color: #0078d4;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+  margin-right: 0.5em;
+}
+
+.chat-message sup {
+  color: #0078d4;
+  font-weight: bold;
+  cursor: pointer;
+}
